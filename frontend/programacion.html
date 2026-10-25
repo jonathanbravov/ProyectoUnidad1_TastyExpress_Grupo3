@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Maqueta visual CR-01: programación, descuentos y cupos.">
+
+    <title>TastyExpress - Programación de pedidos especiales</title>
+
+    <link rel="stylesheet" href="CSS/flujo.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <!-- Encabezado -->
+        <header class="encabezado">
+
+            <a href="index.html" class="logo">TastyExpress</a>
+
+            <nav class="cuenta" aria-label="Opciones de cuenta">
+                <a href="#cuenta" class="boton-cuenta">♙ &nbsp; Mi cuenta</a>
+                <a href="#salir" class="boton-cuenta">Salir de la cuenta</a>
+            </nav>
+
+        </header>
+
+
+        <!-- Contenido principal -->
+        <div class="contenido-principal">
+
+            <!-- Menú lateral -->
+            <aside class="barra-lateral">
+
+                <h2>Menú</h2>
+
+                <nav aria-label="Menú principal">
+
+                    <a href="index.html" class="enlace-menu">
+                        <span aria-hidden="true">☰</span> Menú
+                    </a>
+
+                    <a href="carrito.html" class="enlace-menu activo">
+                        <span aria-hidden="true">▱</span> Carrito
+                    </a>
+
+                    <a href="#pedidos" class="enlace-menu">
+                        <span aria-hidden="true">☰</span> Mis pedidos
+                    </a>
+
+                </nav>
+
+            </aside>
+
+
+            <!-- Programación de pedidos -->
+            <main class="principal">
+
+                <h1>Programación de pedidos especiales</h1>
+
+                <p class="subtitulo">
+                    Elige cuándo recibir tu pedido y ahorra al comprar con anticipación.
+                </p>
+
+
+                <div class="columnas-programacion">
+
+                    <!-- Columna izquierda -->
+                    <div>
+
+                        <!-- Selección de fecha y horario -->
+                        <section class="tarjeta programacion-detalle">
+
+                            <h2>¿Cuándo quieres recibirlo?</h2>
+
+                            <p class="subtexto">
+                                Programa una entrega para los próximos días.
+                            </p>
+
+
+                            <!-- Fecha de entrega -->
+                            <div class="titulo-fecha">
+
+                                <span>Fecha de entrega</span>
+                                <small>Hoy: 25 oct 2026</small>
+
+                            </div>
+
+                            <div class="campo-fecha">
+
+                                <span>
+                                    ▦ &nbsp; Miércoles, 28 de octubre de 2026
+                                </span>
+
+                                <span>⌄</span>
+
+                            </div>
+
+
+                            <!-- Fechas disponibles -->
+                            <div class="fechas" aria-label="Fechas de demostración">
+
+                                <div class="fecha">
+                                    <small>Lun</small>
+                                    <strong>26</strong>
+                                </div>
+
+                                <div class="fecha">
+                                    <small>Mar</small>
+                                    <strong>27</strong>
+                                </div>
+
+                                <div class="fecha elegida">
+                                    <small>Mié</small>
+                                    <strong>28</strong>
+                                </div>
+
+                                <div class="fecha">
+                                    <small>Jue</small>
+                                    <strong>29</strong>
+                                </div>
+
+                                <div class="fecha">
+                                    <small>Vie</small>
+                                    <strong>30</strong>
+                                </div>
+
+                                <div class="fecha">
+                                    <small>Sáb</small>
+                                    <strong>31</strong>
+                                </div>
+
+                            </div>
+
+
+                            <!-- Franjas horarias -->
+                            <div class="franjas">
+
+                                <h3>Franja de entrega</h3>
+
+                                <p class="subtexto">
+                                    Horarios para el miércoles 28 de octubre.
+                                </p>
+
+                                <div class="horarios">
+
+                                    <!-- Horario disponible -->
+                                    <div class="horario">
+
+                                        <div>
+                                            <strong>12:00 – 13:00</strong>
+                                            <span>Disponible</span>
+                                        </div>
+
+                                        <span class="radio-falso"></span>
+
+                                    </div>
+
+
+                                    <!-- Horario bloqueado -->
+                                    <div class="horario bloqueado">
+
+                                        <div>
+                                            <strong>13:00 – 14:00</strong>
+                                            <span>Capacidad máxima</span>
+                                        </div>
+
+                                        <span class="icono-bloqueado">♙</span>
+
+                                    </div>
+
+
+                                    <!-- Horario disponible -->
+                                    <div class="horario">
+
+                                        <div>
+                                            <strong>18:00 – 19:00</strong>
+                                            <span>Disponible</span>
+                                        </div>
+
+                                        <span class="radio-falso"></span>
+
+                                    </div>
+
+
+                                    <!-- Horario seleccionado -->
+                                    <div class="horario seleccion">
+
+                                        <div>
+                                            <strong>19:00 – 20:00</strong>
+                                            <span>Seleccionado</span>
+                                        </div>
+
+                                        <span class="radio-falso marcado"></span>
+
+                                    </div>
+
+
+                                    <!-- Horario bloqueado -->
+                                    <div class="horario bloqueado">
+
+                                        <div>
+                                            <strong>20:00 – 21:00</strong>
+                                            <span>Capacidad máxima</span>
+                                        </div>
+
+                                        <span class="icono-bloqueado">♙</span>
+
+                                    </div>
+
+
+                                    <!-- Horario disponible -->
+                                    <div class="horario">
+
+                                        <div>
+                                            <strong>21:00 – 22:00</strong>
+                                            <span>Disponible</span>
+                                        </div>
+
+                                        <span class="radio-falso"></span>
+
+                                    </div>
+
+                                </div>
+
+
+                                <!-- Mensaje de disponibilidad -->
+                                <p class="ayuda">
+                                    ⓘ &nbsp; Los horarios con capacidad máxima están bloqueados.
+                                    Elige otra franja disponible.
+                                </p>
+
+                            </div>
+
+                        </section>
+
+
+                        <!-- Descuento por compra anticipada -->
+                        <section class="descuento">
+
+                            <div class="icono-descuento">◉</div>
+
+                            <div>
+
+                                <strong>10 % de descuento aplicado</strong>
+
+                                <p>
+                                    Al programar con al menos 24 horas de anticipación.
+                                    Se aplica sobre el subtotal de productos;
+                                    no incluye el envío.
+                                </p>
+
+                            </div>
+
+                        </section>
+
+
+                        <!-- Regresar al carrito -->
+                        <a href="carrito.html" class="boton-volver">
+                            ← &nbsp; Regresar al carrito
+                        </a>
+
+                    </div>
+
+
+                    <!-- Columna derecha: resumen de compra -->
+                    <aside class="tarjeta resumen-programado">
+
+                        <h2>Resumen de compra</h2>
+                        <!-- Producto: Burger Clásica -->
+                        <div class="item-resumen">
+                            <img
+                                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=700&q=80"
+                                alt="Hamburguesa clásica"
+                                class="imagen-producto">
+                            <div>
+                                <strong>Burger Clásica</strong>
+                                <span>2 × 11,50 $</span>
+                            </div>
+                            <strong>23,00 $</strong>
+                        </div>
+                        <!-- Producto: Tiramisú -->
+                        <div class="item-resumen">
+                            <img
+                                src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=700&q=80"
+                                alt="Porción de tiramisú"
+                                class="imagen-producto">
+                            <div>
+                                <strong>Tiramisú</strong>
+                                <span>1 × 6,50 $</span>
+                            </div>
+                            <strong>6,50 $</strong>
+                        </div>
+                        <div class="entrega-programada">
+                            <strong>▦ &nbsp; Entrega programada</strong>
+                            <p>Mié, 28 oct 2026</p>
+                            <p>19:00 – 20:00</p>
+                            <small>
+                                Av. Los Olivos 125 · 4B · Piso 4
+                                <br>
+                                Ciudad Jardín · Centro
+                            </small>
+                        </div>
+                        <!-- Detalle de precios -->
+                        <div class="fila-precio">
+                            <span>Subtotal</span>
+                            <span>29,50 $</span>
+                        </div>
+                        <div class="fila-precio">
+                            <span>Envío</span>
+                            <span>2,50 $</span>
+                        </div>
+                        <div class="fila-precio texto-muted">
+                            <span>Total original</span>
+                            <span>32,00 $</span>
+                        </div>
+                        <div class="fila-precio">
+                            <span>Venta anticipada (10 %)</span>
+                            <span>−2,95 $</span>
+                        </div>
+                        <!-- Total final -->
+                        <div class="fila-precio total">
+                            <strong>Total</strong>
+                            <strong>29,05 $</strong>
+                        </div>
+                        <!-- Ahorro -->
+                        <p class="aviso-ahorro">
+                            ✓ &nbsp; Ahorras 2,95 $ con tu programación
+                        </p>
+                        <!-- Botón de continuación -->
+                        <button type="button" class="boton-oscuro">
+                            Continuar pedido programado &nbsp; →
+                        </button>
+                        <p class="nota-resumen">
+                            A continuación elegirás cómo pagar.
+                            Tu pedido se confirmará al finalizar la compra.
+                        </p>
+                    </aside>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
