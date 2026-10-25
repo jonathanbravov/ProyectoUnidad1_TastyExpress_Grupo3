@@ -1,0 +1,27 @@
+
+name: Validación del proyecto TastyExpress
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+jobs:
+  validar:
+    name: Validar HTML y CSS
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar el código
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Validar formato y sintaxis
+        run: npx --yes prettier --check "frontend/**/*.html" "frontend/**/*.css"
