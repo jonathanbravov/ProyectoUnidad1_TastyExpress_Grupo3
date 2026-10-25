@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>TastyExpress - Personalizar Burger Clásica</title>
+    <link href="CSS/producto.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="contenedor">
+      <header class="encabezado">
+        <a class="logo" href="index.html">TastyExpress</a>
+        <nav aria-label="Cuenta de usuario" class="cuenta">
+          <a class="boton-cuenta" href="#cuenta">♙ Mi cuenta</a>
+          <a class="boton-cuenta" href="#salir">Salir de la cuenta</a>
+        </nav>
+      </header>
+      <div class="contenido-principal">
+        <aside class="barra-lateral">
+          <h2>Menú</h2>
+          <nav aria-label="Navegación principal">
+            <ul class="lista-menu">
+              <li>
+                <a class="enlace-menu activo" href="index.html"><span aria-hidden="true">☰</span> Menú</a>
+              </li>
+              <li>
+                <a class="enlace-menu" href="#carrito"><span aria-hidden="true">🛒</span> Carrito</a>
+              </li>
+              <li>
+                <a class="enlace-menu" href="#pedidos"><span aria-hidden="true">☰</span> Mis pedidos</a>
+              </li>
+            </ul>
+          </nav>
+        </aside>
+        <main class="detalle">
+          <section class="encabezado-detalle">
+            <h1>Personaliza tu Burger Clásica</h1>
+            <p>Elige los ingredientes y disfruta a tu gusto</p>
+            <a class="volver" href="index.html"><span aria-hidden="true">←</span> Volver al catálogo</a>
+          </section>
+          <div class="columnas-detalle">
+            <section aria-label="Información del producto" class="informacion-producto">
+              <img alt="Burger Clásica con queso, tomate, lechuga y carne" class="imagen-producto" src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&amp;fit=crop&amp;w=900&amp;q=85"/>
+              <div class="nombre-precio">
+                <h2>Burger Clásica</h2>
+                <span>10,50 $</span>
+              </div>
+              <p class="descripcion">Carne de ternera, queso cheddar, lechuga, tomate y cebolla caramelizada.</p>
+              <p class="descripcion">Preparada al momento con pan de sésamo y nuestra salsa de la casa.</p>
+              <section class="resumen">
+                <h2>Tu selección</h2>
+                <p class="texto-resumen">Tomate y lechuga incluidos. Cebolla extra añadida.</p>
+                <div class="fila-resumen"><span>Precio base</span> <span>10,50 $</span></div>
+                <div class="fila-resumen"><span>Cebolla extra</span> <span>+1,00 $</span></div>
+                <div class="fila-resumen total-unidad"><span>Precio por unidad</span> <span>11,50 $</span></div>
+              </section>
+            </section>
+            <section class="panel-extras">
+              <h2>Ingredientes y extras</h2>
+              <form action="#" method="get">
+                <fieldset class="grupo-ingredientes">
+                  <legend>Incluidos en tu burger</legend>
+                  <label class="fila-ingrediente"><span class="nombre-ingrediente"> <input checked="" disabled="" type="checkbox"/> Tomate </span> <span class="estado">Incluido</span></label>
+                  <label class="fila-ingrediente"><span class="nombre-ingrediente"> <input checked="" disabled="" type="checkbox"/> Lechuga </span> <span class="estado">Incluida</span></label>
+                </fieldset>
+                <fieldset class="grupo-ingredientes">
+                  <legend>Añade un toque extra</legend>
+                  <label class="fila-ingrediente"><span class="nombre-ingrediente"> <input disabled="" name="extra" type="checkbox" value="cebolla"/> Cebolla extra </span> <span class="precio-extra">+1,00 $</span></label>
+                  <label class="fila-ingrediente"><span class="nombre-ingrediente"> <input disabled="" name="extra" type="checkbox" value="queso"/> Queso cheddar extra </span> <span class="precio-extra">+1,50 $</span></label>
+                  <label class="fila-ingrediente"><span class="nombre-ingrediente"> <input disabled="" name="extra" type="checkbox" value="bacon"/> Bacon crujiente </span> <span class="precio-extra">+2,00 $</span></label>
+                  <label class="fila-ingrediente"><span class="nombre-ingrediente"> <input disabled="" name="extra" type="checkbox" value="salsa"/> Salsa de la casa extra </span> <span class="precio-extra">+0,50 $</span></label>
+                  <label class="fila-ingrediente no-disponible"><span class="nombre-ingrediente"> <input disabled="" type="checkbox"/> Pepino encurtido </span> <span class="estado">No disponible</span></label>
+                </fieldset>
+                <div class="seccion-cantidad">
+                  <label for="cantidad">Cantidad</label>
+                  <div class="control-cantidad">
+                    <button aria-label="Disminuir cantidad" type="button">−</button>
+                    <input id="cantidad" max="99" min="1" name="cantidad" type="number" value="0"/>
+                    <button aria-label="Aumentar cantidad" type="button">+</button>
+                  </div>
+                  <p class="mensaje-error">ⓘ Mínimo 1 unidad</p>
+                </div>
+                <div class="total-pedido"><span>0 × 11,50 $</span> <strong>0,0 $</strong></div>
+                <button class="boton-carrito" type="submit">Añadir al carrito · 23,00 $</button>
+              </form>
+            </section>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
