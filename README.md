@@ -24,7 +24,7 @@
 
 - **Jira:**
 
-  [https://espe-team-3.atlassian.net/?continue=https%3A%2F%2Fespe-team-3.atlassian.net%2Fwelcome%2Fsoftware%3FprojectId%3D10001&atlOrigin=eyJpIjoiMjYyZDY2ZjM4ODA2NDg5MGEzNGMzYWNiZTY1NjU0NjUiLCJwIjoiamlyYS1zb2Z0d2FyZSJ9](https://espe-team-3.atlassian.net/?continue=https%3A%2F%2Fespe-team-3.atlassian.net%2Fwelcome%2Fsoftware%3FprojectId%3D10001\&atlOrigin=eyJpIjoiMjYyZDY2ZjM4ODA2NDg5MGEzNGMzYWNiZTY1NjU0NjUiLCJwIjoiamlyYS1zb2Z0d2FyZSJ9)\
+  [https://espe-team-3.atlassian.net/?continue=https%3A%2F%2Fespe-team-3.atlassian.net%2Fwelcome%2Fsoftware%3FprojectId%3D10001&atlOrigin=eyJpIjoiMjYyZDY2ZjM4ODA2NDg5MGEzNGMzYWNiZTY1NjU0NjUiLCJwIjoiamlyYS1zb2Z0d2FyZSJ9](https://espe-team-3.atlassian.net/?continue=https%3A%2F%2Fespe-team-3.atlassian.net%2Fwelcome%2Fsoftware%3FprojectId%3D10001\&atlOrigin=eyJpIjoiMjYyZDY2ZjM4ODA2NDg5MGEzNGMzYWNiZTY1NjU0NjUiLCJwIjoiamlyYS1zb2Z0d2FyZSJ9)
 
 
 - **Confluence:**
@@ -35,7 +35,7 @@
 
   **Miembros:** [https://espe-team-3.atlassian.net/wiki/x/DQAW](https://espe-team-3.atlassian.net/wiki/x/DQAW)
 
-&#x20;     **Nota:** El enlace público permite visualizar la documentación del proyecto; sin embargo, los enlaces       internos que redirigen a las épicas y a los requisitos funcionales (RF) y no funcionales (RNF)                   pueden no estar disponibles para usuarios externos. Para acceder a estos recursos, es necesario            utilizar el enlace para miembros y contar con los permisos correspondientes.\
+&#x20;     **Nota:** El enlace público permite visualizar la documentación del proyecto; sin embargo, los enlaces       internos que redirigen a las épicas y a los requisitos funcionales (RF) y no funcionales (RNF)                   pueden no estar disponibles para usuarios externos. Para acceder a estos recursos, es necesario            utilizar el enlace para miembros y contar con los permisos correspondientes.
 
 
 - **Figma:**
