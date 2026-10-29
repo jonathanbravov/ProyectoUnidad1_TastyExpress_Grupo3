@@ -11,7 +11,18 @@
 
 **Sistema de Gestión de Pedidos y Delivery para Restaurantes.**
 
-## 3. Instrucciones de ejecución
+## 3. Estructura del Proyecto
+
+```text
+ProyectoUnidad1_TastyExpress_Grupo3/
+├── .github/
+│   └── workflows/          # Flujos de trabajo y validaciones automáticas de CI/CD
+├── docs/                   # Documentación y diagramas de componentes
+├── frontend/               # Interfaz de usuario (HTML, CSS y recursos visuales)
+└── README.md               # Documentación general del proyecto
+```
+
+## 4. Instrucciones de ejecución
 
 1. Descargar o clonar el repositorio de GitHub.
 2. Verificar que los archivos HTML y CSS estén organizados correctamente.
@@ -20,7 +31,7 @@
 
 **Nota:** La aplicación desarrollada utiliza HTML y CSS, y su implementación se centra en las funcionalidades visuales correspondientes a las historias de usuario HU-01 y HU-02, relacionadas con la consulta del catálogo y la visualización de precios y detalles de los productos. Las funcionalidades dinámicas, como la gestión del carrito y el procesamiento de pedidos, aún no se encuentran implementadas.
 
-## 4. Enlaces del proyecto
+## 5. Enlaces del proyecto
 
 - **Jira:**
 
