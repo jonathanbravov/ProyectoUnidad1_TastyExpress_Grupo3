@@ -3,7 +3,7 @@
 ## 1. Integrantes
 
 - Bravo Vallejos Jonathan Alexander
-- Jacome Pineda Emanuel Alejandro
+- Jácome Pineda Emanuel Alejandro
 - Otavalo Villarreal Arelys Maholy
 - Santamaria Argotty Andrea Estefania
 
